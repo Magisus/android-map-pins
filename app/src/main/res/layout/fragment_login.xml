@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="edu.lclark.mdreyer.mappins.LoginFragment">
+
+    <EditText
+        android:id="@+id/fragment_login_name_input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:hint="@string/username_edit_text_hint"/>
+
+    <Button
+        android:id="@+id/login_fragment_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button_text"/>
+
+    <Button
+        android:id="@+id/login_fragment_add_user_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_user_button_text"/>
+
+</LinearLayout>
